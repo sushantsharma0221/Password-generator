@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator </title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <h1 class="title">Password Generator</h1>
+
+        <div class="outer">
+            <p class="password">Password:</p>
+        </div>
+        <div class="inner">
+            <h3>Password length</h3> <span>
+                <input type="number" class="length" min="10" max="30">
+            </span>
+        </div>
+        <div class="inner">
+            <h3>Include uppercase </h3> <span>
+                <input type="checkbox" class="one">
+            </span>
+        </div>
+        <div class="inner">
+            <h3>Include lowercase </h3> <span>
+                <input type="checkbox" class="two">
+            </span>
+        </div>
+        <div class="inner">
+            <h3>Include numbers </h3> <span>
+                <input type="checkbox" class="three">
+            </span>
+        </div>
+        <div class="inner">
+            <h3>Include symbols </h3> <span>
+                <input type="checkbox" class="four">
+            </span>
+        </div>
+        <button class="generate">Generate Password</button>
+    </main>
+</body>
+
+</html>
